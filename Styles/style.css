@@ -3,11 +3,12 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
     padding: 0px;
+    color: #3a3a3a;
 }
 
 .container {
 
-    width: 1470px;
+    width: 90%;
     margin: auto;
 }
 
@@ -32,9 +33,60 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+
     font-size: 16px;
     margin-right: 34px;
-    
 
+
+}
+
+
+.intro {
+    display: flex;
+    padding-left: 45px;
+
+}
+
+.intro-title {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 52px;
+    font-weight: 700;
+    /* width: 70%; */
+
+}
+
+.intro-article {
+    width: 80%;
+}
+
+.intro-article p {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 42px;
+    column-gap: 6px;
+
+}
+
+.intro-img {
+    padding-left: 130px;
+}
+
+.intro-img img {
+    position: relative;
+    left: 20px;
+    bottom: 460px;
+    height: 414px;
+    width: 440px;
 }
