@@ -1,0 +1,40 @@
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+    width: 1470px;
+    margin: auto;
+}
+
+/* Navigation bar design */
+
+.logo {
+
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+
+    /* padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 34px;
+    
+
+}
